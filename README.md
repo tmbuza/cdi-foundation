@@ -15,11 +15,25 @@ CDI Foundation is positioned as a modern applied-technology and workforce-develo
 ├── _quarto.yml
 ├── index.qmd
 ├── 00-preface.qmd
-├── chapters/
-├── appendices/
+├── 01-background-and-rationale.qmd
+├── 02-vision-mission-objectives.qmd
+├── 03-cdi-foundation-model.qmd
+├── 04-core-initiatives.qmd
+├── 05-scalability-and-expansion.qmd
+├── 06-delivery-model.qmd
+├── 07-mentorship-and-capability.qmd
+├── 08-workforce-and-opportunity-integration.qmd
+├── 09-governance-and-operations.qmd
+├── 10-sustainability-and-growth.qmd
+├── 11-monitoring-evaluation-and-impact.qmd
+├── 12-launch-roadmap.qmd
+├── 13-conclusion.qmd
+├── 999-appendix.qmd
 ├── assets/
 │   ├── css/
 │   └── images/
+├── docs/
+├── library/
 └── README.md
 ```
 
