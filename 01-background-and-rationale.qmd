@@ -1,0 +1,130 @@
+# Background and Rationale
+
+::: {.cdi-message}
+**ID:** CDI-F01  
+**Type:** Strategic Framework Chapter  
+**Audience:** Public, partners, mentors, funders, learners  
+**Theme:** Workforce capability, applied technology, and modern digital learning
+:::
+
+## The Changing Global Workforce
+
+The global workforce is undergoing rapid transformation driven by technology, digital connectivity, artificial intelligence, remote collaboration systems, and increasing demand for adaptable technical capability.
+
+Modern organizations increasingly operate across distributed and hybrid environments where teams collaborate digitally across regions and time zones. As a result, workforce expectations are evolving beyond traditional credentialing alone toward practical contribution, technical adaptability, communication, and systems-level thinking.
+
+At the same time, access to technology education has expanded significantly through online learning platforms, open educational resources, and digital communities. More people than ever before are gaining exposure to technical tools, programming environments, analytical systems, and AI-assisted workflows.
+
+However, exposure alone does not always translate into workforce-ready capability.
+
+---
+
+## The Practical Capability Gap
+
+Across professional networks and digital workforce platforms, many technical and analytical positions continue to be advertised repeatedly, including highly skilled remote and hybrid roles that are not always filled quickly despite growing global connectivity.
+
+This reflects an important challenge within the modern workforce landscape:
+the gap between theoretical exposure and practical capability.
+
+Many learners successfully complete courses, tutorials, or certifications but still face difficulty transitioning into real-world contribution because they may lack:
+
+- guided practical systems-building
+- portfolio-ready experience
+- technical reasoning and interpretation
+- reproducible workflow practice
+- mentorship and applied guidance
+- collaboration and communication skills
+- exposure to real workforce expectations
+- confidence navigating modern technical environments
+
+The challenge is therefore not simply access to information.
+
+The challenge is helping learners transform information into usable, adaptable, and defensible capability.
+
+---
+
+## The Expansion of Remote and Hybrid Work
+
+Remote and hybrid work environments have expanded access to global opportunities across technology-driven industries including data science, software systems, AI-assisted workflows, bioinformatics, analytics, digital health, and innovation ecosystems.
+
+These environments increasingly reward individuals who can:
+
+- work independently and collaboratively
+- learn continuously
+- communicate clearly
+- adapt to evolving technologies
+- build reproducible systems
+- interpret outputs responsibly
+- contribute within digital workflows
+- solve practical problems
+
+This shift creates significant opportunities for learners who develop practical technical capability aligned with real-world systems and workforce environments.
+
+At the same time, it also increases the importance of mentorship, guided practice, technical credibility, and applied learning experiences.
+
+---
+
+## From Passive Completion to Applied Capability
+
+Traditional educational pathways and workforce-development programs have often emphasized attendance, completion, or certification as indicators of progress.
+
+While certifications and formal education remain valuable, modern workforce environments increasingly require demonstrated capability, practical systems experience, adaptability, and evidence of real contribution.
+
+CDI Foundation promotes a capability-driven approach to learning centered on:
+
+- structured learning pathways
+- applied systems-building
+- interpretation and reasoning
+- reproducibility
+- portfolio development
+- guided mentorship
+- collaborative learning
+- practical contribution
+
+The goal is not passive completion alone.
+
+The goal is helping learners develop practical capability that supports meaningful participation within modern technology-driven environments.
+
+---
+
+## Why Applied Systems Practice Matters
+
+Technical knowledge becomes significantly more valuable when learners are able to connect concepts to real workflows, real systems, and practical outcomes.
+
+Applied systems practice helps learners move beyond isolated exercises toward understanding how tools, reasoning, data, communication, and decision-making interact within complete workflows.
+
+This includes the ability to:
+
+- build reproducible analytical systems
+- explain technical decisions
+- interpret results responsibly
+- communicate findings clearly
+- collaborate within technical environments
+- adapt workflows to real-world needs
+- develop defensible conclusions
+- contribute to innovation and problem-solving
+
+CDI Foundation therefore emphasizes systems-thinking and practical capability development rather than isolated tool usage alone.
+
+---
+
+## The Role of CDI Foundation
+
+CDI Foundation was established to help expand access to practical technology skills and real-world systems development through modern, mentorship-driven, and workforce-oriented learning models.
+
+The foundation combines:
+
+- structured digital learning pathways
+- guided mentorship
+- applied systems-building
+- workforce readiness support
+- portfolio-oriented development
+- innovation-focused learning
+- opportunity awareness
+- online and locally adaptable participation models
+
+Its purpose is to help learners build practical capability aligned with the evolving digital economy while supporting long-term technical growth, innovation, and meaningful workforce participation.
+
+::: {.next}
+The next chapter defines the vision, mission, strategic objectives, and long-term direction of CDI Foundation.
+:::

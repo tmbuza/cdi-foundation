@@ -1,0 +1,127 @@
+# Vision, Mission, and Objectives
+
+::: {.cdi-message}
+**ID:** CDI-F02  
+**Type:** Strategic Framework Chapter  
+**Audience:** Public, partners, mentors, funders, learners  
+**Theme:** Organizational direction, workforce capability, and applied technology development
+:::
+
+## Vision Statement
+
+To help expand access to practical technology capability, systems-thinking, mentorship, and innovation-oriented learning that supports meaningful participation within the modern digital workforce and technology-driven ecosystems.
+
+---
+
+## Mission Statement
+
+CDI Foundation exists to help learners develop practical, workforce-ready capability through structured learning pathways, guided mentorship, applied systems-building, and real-world technology practice.
+
+The foundation promotes accessible modern technology education focused on interpretation, reproducibility, innovation, collaboration, and practical contribution within remote, hybrid, and digitally connected environments.
+
+---
+
+## Core Philosophy
+
+CDI Foundation is built around the belief that practical capability develops most effectively when learning is connected to real systems, guided practice, technical reasoning, and meaningful application.
+
+The organization therefore emphasizes:
+
+- systems over isolated outputs
+- capability over passive completion
+- interpretation over memorization alone
+- practical contribution over theoretical exposure alone
+- guided mentorship and collaborative growth
+- reproducibility and defensible reasoning
+- long-term adaptability within evolving technology environments
+
+The goal is not simply helping learners complete content.
+
+The goal is helping learners build capability that can support real contribution, technical confidence, innovation, and workforce participation.
+
+---
+
+## Strategic Objectives
+
+### Expand Access to Practical Technology Skills
+
+Support broader access to modern technology learning opportunities through structured digital pathways, open learning systems, mentorship, and practical systems-oriented education.
+
+### Promote Workforce-Ready Capability
+
+Help learners develop practical capability aligned with modern workforce expectations including technical reasoning, collaboration, communication, adaptability, and reproducible workflow practice.
+
+### Strengthen Applied Systems-Building
+
+Encourage systems-thinking and real-world project development that connects tools, workflows, interpretation, and decision-making into practical technical ecosystems.
+
+### Support Mentorship and Guided Growth
+
+Develop mentorship-driven learning environments that support continuous growth, technical confidence, practical guidance, and collaborative learning experiences.
+
+### Encourage Innovation and Entrepreneurship
+
+Support innovation-focused learning, technical experimentation, startup-oriented thinking, and applied problem-solving through collaborative systems development and practical project environments.
+
+### Promote Inclusive and Accessible Learning
+
+Expand opportunities for participation through online, hybrid, and locally adaptable learning models designed to support broad access to practical capability development.
+
+---
+
+## Long-Term Goals
+
+CDI Foundation aims to contribute toward:
+
+- stronger practical technology capability within emerging and distributed workforce environments
+- increased access to mentorship and guided technical growth
+- improved workforce readiness for remote and hybrid work opportunities
+- broader participation within applied technology and innovation ecosystems
+- stronger technical communication and interpretation culture
+- expanded access to systems-oriented learning and reproducible workflows
+- increased confidence and capability among learners entering technology-driven environments
+- development of collaborative technical communities and innovation networks
+
+---
+
+## Organizational Principles
+
+### Systems Over Outputs
+
+Technology learning becomes more valuable when learners understand complete workflows, reasoning processes, interpretation, and systems-level interaction rather than isolated outputs alone.
+
+### Capability Over Passive Completion
+
+The organization emphasizes practical capability, contribution, adaptability, and applied understanding rather than completion metrics alone.
+
+### Guided Practical Learning
+
+Structured mentorship and guided systems-building help learners transition from theoretical exposure into real-world capability development.
+
+### Reproducibility and Interpretation
+
+Responsible technical work requires reproducibility, transparent workflows, interpretation, communication, and defensible reasoning.
+
+### Accessibility and Inclusion
+
+Modern technology capability should become more accessible across communities through adaptable digital learning and mentorship-driven participation models.
+
+### Continuous Growth and Adaptability
+
+Technology environments evolve rapidly. Learners therefore benefit from continuous learning culture, adaptability, collaborative growth, and innovation-oriented thinking.
+
+---
+
+## Expected Long-Term Impact
+
+Through its initiatives and learning ecosystem, CDI Foundation aims to support development of more technically confident, workforce-ready, innovation-oriented, and practically capable learners who can contribute meaningfully within modern technology-driven environments.
+
+The foundation also aims to strengthen mentorship culture, systems-thinking, collaboration, innovation, and applied capability development within digitally connected communities.
+
+Over time, CDI Foundation seeks to help build accessible pathways between learning, practical systems experience, workforce participation, innovation, and long-term technical growth.
+
+::: {.next}
+The next chapter introduces the CDI Foundation capability-development model:
+
+Learn → Build → Explain → Contribute.
+:::

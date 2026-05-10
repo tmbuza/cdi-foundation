@@ -1,0 +1,80 @@
+# Preface
+
+::: {.cdi-message}
+**ID:** CDI-F00  
+**Type:** Foundation Preface  
+**Audience:** Public, partners, mentors, funders, learners  
+**Theme:** Applied technology, workforce capability, and systems development
+:::
+
+## CDI Foundation
+
+**Expanding access to practical technology skills and real-world systems development.**
+
+CDI Foundation is a modern applied-technology and workforce-development organization focused on helping learners build practical capability through structured learning pathways, guided mentorship, and real-world systems practice.
+
+The foundation emphasizes applied learning, technical reasoning, reproducibility, innovation, and workforce readiness aligned with the evolving digital economy and modern remote and hybrid work environments.
+
+---
+
+## Core Initiatives
+
+### CDI Workforce Initiative
+
+Workforce readiness, remote and hybrid work preparation, portfolio development, and practical technical capability.
+
+### CDI Innovation Labs
+
+Applied technology projects, collaborative systems-building, innovation workflows, and experimental learning environments.
+
+### CDI Omics Systems
+
+Bioinformatics, omics workflows, reproducible analytical systems, and applied computational biology learning.
+
+### CDI AI & Decision Systems
+
+AI-assisted workflows, analytical reasoning, interpretation, and defensible decision-support systems.
+
+### CDI Mentorship Network
+
+Founder-led and community-driven mentorship focused on guided practice, technical growth, and real-world capability development.
+
+### CDI Startup Studio
+
+Technical entrepreneurship, systems prototyping, startup incubation, and innovation-driven project development.
+
+### CDI Career Growth
+
+Professional positioning, communication, portfolio visibility, workforce navigation, and long-term technical career development.
+
+---
+
+## Scalability and Future Expansion
+
+### CDI Research Partnerships
+
+Collaborative initiatives with academic, technical, healthcare, and innovation organizations.
+
+### CDI Open Learning Network
+
+Accessible digital learning pathways and open educational systems designed for broad participation.
+
+### CDI Community Technology Hubs
+
+Local and hybrid learning environments supporting collaborative practice, workshops, mentorship, and innovation activities.
+
+### CDI Women in Technology Initiative
+
+Programs supporting increased participation, mentorship, visibility, and technical growth for women within technology-driven fields.
+
+### CDI Youth Innovation Program
+
+Early capability development, innovation exposure, mentorship, and practical systems-building opportunities for young learners.
+
+### CDI Applied Health Systems
+
+Applied data, AI, omics, and digital systems initiatives supporting health and healthcare-related technology ecosystems.
+
+::: {.next}
+This foundation framework introduces CDI as a capability-building organization. The next chapter explains the workforce and technology gap that CDI is designed to address.
+:::
