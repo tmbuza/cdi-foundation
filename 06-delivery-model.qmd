@@ -1,0 +1,256 @@
+# Delivery Model
+
+::: {.cdi-message}
+**ID:** CDI-F06  
+**Type:** Strategic Framework Chapter  
+**Audience:** Public, partners, mentors, funders, learners  
+**Theme:** Flexible learning delivery, mentorship ecosystems, and practical capability development
+:::
+
+## Introduction
+
+CDI Foundation uses a flexible and adaptable delivery model designed to support practical capability development across online, hybrid, and locally adaptable environments.
+
+The organization recognizes that modern workforce development increasingly requires learning systems that are:
+
+- accessible across regions
+- adaptable to different learner contexts
+- compatible with remote and hybrid participation
+- mentorship-driven
+- project-oriented
+- systems-focused
+- scalable beyond traditional classrooms
+
+CDI Foundation therefore combines digital learning pathways, mentorship systems, collaborative environments, innovation-oriented practice, and local participation models into one connected ecosystem.
+
+The goal is not simply to distribute information.
+
+The goal is to create environments where learners can build practical capability through structured guidance, applied systems practice, interpretation, collaboration, and real-world technical development.
+
+---
+
+## Online DIY Learning Pathways
+
+The CDI online learning model supports self-paced and independently accessible capability development through structured pathways and systems-oriented learning resources.
+
+These pathways may include:
+
+- open learning guides
+- technical walkthroughs
+- project-based learning materials
+- reproducible workflows
+- systems-oriented tutorials
+- portfolio-building exercises
+- AI-assisted learning support
+- structured progression frameworks
+
+The DIY model is designed to help learners develop practical capability while maintaining flexibility around time, location, and pace of learning.
+
+Unlike passive content consumption models, CDI pathways emphasize:
+
+- applied understanding
+- systems-thinking
+- workflow development
+- interpretation and reasoning
+- reproducibility
+- practical contribution
+
+This structure allows learners to progress independently while remaining connected to broader mentorship and community ecosystems.
+
+---
+
+## Guided Cohort Programs
+
+CDI Foundation also supports guided cohort-based learning environments where learners progress through structured pathways with mentorship, timelines, collaboration, and practical project development.
+
+Cohorts may include:
+
+- mentorship sessions
+- collaborative learning activities
+- guided systems-building
+- project reviews
+- interpretation discussions
+- portfolio feedback
+- technical communication practice
+- workforce-oriented preparation
+
+The cohort structure helps learners benefit from accountability, peer interaction, collaborative problem-solving, and structured progression.
+
+This model is especially valuable for learners transitioning from theoretical exposure into applied capability development.
+
+---
+
+## Mentorship-Driven Learning
+
+Mentorship is a foundational component of the CDI delivery model.
+
+The organization recognizes that many learners struggle not because they lack intelligence or motivation, but because they lack:
+
+- guidance
+- structure
+- feedback
+- exposure to real workflows
+- confidence
+- practical direction
+
+CDI mentorship helps learners navigate these challenges through guided capability development.
+
+The mentorship structure may include:
+
+- founder-led mentorship
+- peer mentorship
+- community support
+- technical guidance
+- project reviews
+- portfolio development support
+- communication and interpretation guidance
+- long-term growth pathways
+
+The mentorship model is designed to remain both scalable and human-centered.
+
+---
+
+## Hybrid and Local Workshops
+
+CDI Foundation supports hybrid and locally adaptable workshops designed to connect digital learning with practical community participation.
+
+These workshops may be delivered through:
+
+- community learning environments
+- partner organizations
+- local technology spaces
+- educational institutions
+- collaborative innovation settings
+- hybrid online-local participation models
+
+Workshop activities may include:
+
+- technical training
+- systems-building exercises
+- project collaboration
+- innovation sessions
+- mentorship activities
+- communication practice
+- workforce readiness support
+
+The hybrid model allows CDI Foundation to remain globally connected while supporting local engagement and community participation.
+
+---
+
+## Community Technology Hubs
+
+Community Technology Hubs represent local capability-development and collaboration environments connected to the broader CDI ecosystem.
+
+The hubs are intended to support:
+
+- practical systems practice
+- mentorship and collaboration
+- innovation-oriented activities
+- workforce preparation
+- project development
+- community learning
+- startup-oriented experimentation
+- technical communication
+
+The hubs are not designed as passive classroom environments.
+
+They are intended to function as practical ecosystems where learners, mentors, innovators, and collaborators can engage in applied capability development.
+
+---
+
+## Innovation and Practice Environments
+
+CDI Foundation emphasizes practical systems-building and innovation-oriented learning environments.
+
+Learners are encouraged to move beyond isolated exercises into workflows that simulate or contribute to real-world technical environments.
+
+Practice environments may include:
+
+- applied analytical systems
+- AI-assisted workflows
+- reproducible reporting systems
+- startup prototypes
+- collaborative projects
+- omics analysis systems
+- visualization and communication systems
+- innovation-oriented experimentation
+
+This approach helps learners strengthen adaptability, systems-thinking, interpretation, collaboration, and practical contribution.
+
+---
+
+## Project-Based Learning
+
+Project-based learning is central to the CDI delivery philosophy.
+
+Learners develop capability more effectively when they apply concepts within complete systems rather than disconnected exercises alone.
+
+Projects may include:
+
+- analytical pipelines
+- dashboards and reporting systems
+- reproducible research workflows
+- AI-assisted systems
+- portfolio-ready technical outputs
+- startup-oriented prototypes
+- collaborative innovation projects
+- communication and interpretation exercises
+
+Projects also help learners build visible evidence of capability that can support workforce readiness and long-term technical growth.
+
+---
+
+## Portfolio and Workforce Preparation
+
+The CDI delivery model connects learning to workforce-oriented capability development.
+
+Learners are encouraged to build:
+
+- practical systems
+- technical documentation
+- reproducible projects
+- communication skills
+- professional visibility
+- collaborative experience
+- interpretation and reasoning capability
+- portfolio-ready outputs
+
+This helps learners demonstrate what they can build, explain, improve, and contribute rather than relying solely on passive completion metrics.
+
+The model also supports preparation for:
+
+- remote work environments
+- hybrid collaboration
+- innovation ecosystems
+- startup-oriented environments
+- technical communication
+- workforce participation
+
+---
+
+## Flexible Participation Philosophy
+
+CDI Foundation is designed to support participation across different regions, learning backgrounds, schedules, and access conditions.
+
+The organization therefore emphasizes:
+
+- accessibility
+- adaptability
+- online participation
+- hybrid engagement
+- locally adaptable models
+- asynchronous learning
+- mentorship-supported flexibility
+- community-driven participation
+
+This flexibility helps CDI Foundation remain scalable while supporting learners across diverse environments and workforce contexts.
+
+---
+
+## The CDI Delivery Model in One Statement
+
+CDI Foundation delivers practical capability development through flexible, mentorship-driven, systems-oriented learning environments that combine structured pathways, applied projects, collaboration, innovation, and workforce-oriented growth across online and locally adaptable ecosystems.
+
+::: {.next}
+The next chapter explores mentorship and capability development in greater depth, including founder-led mentorship philosophy, guided growth systems, project feedback culture, and collaborative technical development.
+:::
