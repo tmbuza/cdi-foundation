@@ -1542,144 +1542,131 @@
   {
     "objectID": "999-appendix.html",
     "href": "999-appendix.html",
-    "title": "17  Appendix",
+    "title": "16  Appendix",
     "section": "",
-    "text": "17.1 Introduction\nThis appendix provides example structures, ecosystem concepts, learning pathways, mentorship examples, and operational reference materials that support the broader CDI Foundation framework.\nThe examples presented here are illustrative and intended to demonstrate how the CDI Foundation philosophy may be translated into practical capability-development ecosystems.\nThe appendix is designed to evolve over time as programs, mentorship systems, learning environments, and collaborative initiatives expand.",
+    "text": "16.1 Introduction\nThis appendix provides example structures, ecosystem concepts, learning pathways, mentorship examples, and operational reference materials that support the broader CDI Foundation framework.\nThe examples presented here are illustrative and intended to demonstrate how the CDI Foundation philosophy may be translated into practical capability-development ecosystems.\nThe appendix is designed to evolve over time as programs, mentorship systems, learning environments, and collaborative initiatives expand.",
     "crumbs": [
-      "Appendix",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Appendix</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Appendix</span>"
     ]
   },
   {
     "objectID": "999-appendix.html#example-pathway-data-science-and-workforce-readiness",
     "href": "999-appendix.html#example-pathway-data-science-and-workforce-readiness",
-    "title": "17  Appendix",
-    "section": "18.1 Example Pathway: Data Science and Workforce Readiness",
-    "text": "18.1 Example Pathway: Data Science and Workforce Readiness\n\nLearn\n\nPython foundations\ndata structures\nstatistics and visualization\ndatabases and SQL\nanalytical reasoning\n\n\n\nBuild\n\nreproducible analysis workflows\ndashboards and reporting systems\nproject-based analytical pipelines\nportfolio-oriented case studies\n\n\n\nExplain\n\ntechnical communication\ninterpretation and reasoning\ndocumentation and reporting\npresentation and visualization\n\n\n\nContribute\n\nremote collaboration\nworkforce-oriented projects\nmentorship participation\ninnovation-oriented systems development",
+    "title": "16  Appendix",
+    "section": "17.1 Example Pathway: Data Science and Workforce Readiness",
+    "text": "17.1 Example Pathway: Data Science and Workforce Readiness\n\nLearn\n\nPython foundations\ndata structures\nstatistics and visualization\ndatabases and SQL\nanalytical reasoning\n\n\n\nBuild\n\nreproducible analysis workflows\ndashboards and reporting systems\nproject-based analytical pipelines\nportfolio-oriented case studies\n\n\n\nExplain\n\ntechnical communication\ninterpretation and reasoning\ndocumentation and reporting\npresentation and visualization\n\n\n\nContribute\n\nremote collaboration\nworkforce-oriented projects\nmentorship participation\ninnovation-oriented systems development",
     "crumbs": [
-      "Appendix",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Appendix</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Appendix</span>"
     ]
   },
   {
     "objectID": "999-appendix.html#example-pathway-applied-bioinformatics-and-omics",
     "href": "999-appendix.html#example-pathway-applied-bioinformatics-and-omics",
-    "title": "17  Appendix",
-    "section": "18.2 Example Pathway: Applied Bioinformatics and Omics",
-    "text": "18.2 Example Pathway: Applied Bioinformatics and Omics\n\nLearn\n\nbiological foundations\nRNA-seq concepts\nomics workflows\ncomputational analysis foundations\n\n\n\nBuild\n\nreproducible omics pipelines\nvisualization systems\nintegrated analytical workflows\nsystems-oriented biological analysis\n\n\n\nExplain\n\ninterpretation of results\nscientific communication\nreproducibility and reporting\ndefensible analytical reasoning\n\n\n\nContribute\n\ncollaborative research workflows\nopen analytical systems\nmentorship and community contribution\ninnovation-oriented biological systems development",
+    "title": "16  Appendix",
+    "section": "17.2 Example Pathway: Applied Bioinformatics and Omics",
+    "text": "17.2 Example Pathway: Applied Bioinformatics and Omics\n\nLearn\n\nbiological foundations\nRNA-seq concepts\nomics workflows\ncomputational analysis foundations\n\n\n\nBuild\n\nreproducible omics pipelines\nvisualization systems\nintegrated analytical workflows\nsystems-oriented biological analysis\n\n\n\nExplain\n\ninterpretation of results\nscientific communication\nreproducibility and reporting\ndefensible analytical reasoning\n\n\n\nContribute\n\ncollaborative research workflows\nopen analytical systems\nmentorship and community contribution\ninnovation-oriented biological systems development",
     "crumbs": [
-      "Appendix",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Appendix</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Appendix</span>"
     ]
   },
   {
     "objectID": "999-appendix.html#example-pathway-ai-and-decision-systems",
     "href": "999-appendix.html#example-pathway-ai-and-decision-systems",
-    "title": "17  Appendix",
-    "section": "18.3 Example Pathway: AI and Decision Systems",
-    "text": "18.3 Example Pathway: AI and Decision Systems\n\nLearn\n\nAI-assisted workflows\nanalytical reasoning\nsystems-thinking\ninterpretation and validation principles\n\n\n\nBuild\n\nAI-assisted systems\nworkflow automation\ndecision-support pipelines\npractical reasoning workflows\n\n\n\nExplain\n\ncommunication of AI-assisted outputs\nverification and interpretation\ndefensible reasoning\nworkflow documentation\n\n\n\nContribute\n\ncollaborative AI-assisted systems\nworkforce-oriented AI workflows\ninnovation participation\nmentorship and ecosystem contribution",
+    "title": "16  Appendix",
+    "section": "17.3 Example Pathway: AI and Decision Systems",
+    "text": "17.3 Example Pathway: AI and Decision Systems\n\nLearn\n\nAI-assisted workflows\nanalytical reasoning\nsystems-thinking\ninterpretation and validation principles\n\n\n\nBuild\n\nAI-assisted systems\nworkflow automation\ndecision-support pipelines\npractical reasoning workflows\n\n\n\nExplain\n\ncommunication of AI-assisted outputs\nverification and interpretation\ndefensible reasoning\nworkflow documentation\n\n\n\nContribute\n\ncollaborative AI-assisted systems\nworkforce-oriented AI workflows\ninnovation participation\nmentorship and ecosystem contribution",
     "crumbs": [
-      "Appendix",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Appendix</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Appendix</span>"
     ]
   },
   {
     "objectID": "999-appendix.html#founder-led-mentorship",
     "href": "999-appendix.html#founder-led-mentorship",
-    "title": "17  Appendix",
-    "section": "20.1 Founder-Led Mentorship",
-    "text": "20.1 Founder-Led Mentorship\nVisible and practical guidance focused on systems-thinking, capability development, workforce readiness, and mentorship culture.",
+    "title": "16  Appendix",
+    "section": "19.1 Founder-Led Mentorship",
+    "text": "19.1 Founder-Led Mentorship\nVisible and practical guidance focused on systems-thinking, capability development, workforce readiness, and mentorship culture.",
     "crumbs": [
-      "Appendix",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Appendix</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Appendix</span>"
     ]
   },
   {
     "objectID": "999-appendix.html#cohort-mentorship",
     "href": "999-appendix.html#cohort-mentorship",
-    "title": "17  Appendix",
-    "section": "20.2 Cohort Mentorship",
-    "text": "20.2 Cohort Mentorship\nStructured group-based mentorship environments supporting collaborative growth and guided learning progression.",
+    "title": "16  Appendix",
+    "section": "19.2 Cohort Mentorship",
+    "text": "19.2 Cohort Mentorship\nStructured group-based mentorship environments supporting collaborative growth and guided learning progression.",
     "crumbs": [
-      "Appendix",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Appendix</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Appendix</span>"
     ]
   },
   {
     "objectID": "999-appendix.html#peer-mentorship",
     "href": "999-appendix.html#peer-mentorship",
-    "title": "17  Appendix",
-    "section": "20.3 Peer Mentorship",
-    "text": "20.3 Peer Mentorship\nLearners supporting one another through project review, communication practice, collaborative learning, and shared ecosystem participation.",
+    "title": "16  Appendix",
+    "section": "19.3 Peer Mentorship",
+    "text": "19.3 Peer Mentorship\nLearners supporting one another through project review, communication practice, collaborative learning, and shared ecosystem participation.",
     "crumbs": [
-      "Appendix",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Appendix</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Appendix</span>"
     ]
   },
   {
     "objectID": "999-appendix.html#technical-review-support",
     "href": "999-appendix.html#technical-review-support",
-    "title": "17  Appendix",
-    "section": "20.4 Technical Review Support",
-    "text": "20.4 Technical Review Support\nProject-oriented feedback involving:\n\nworkflow review\ninterpretation guidance\ndocumentation support\ncommunication improvement\nportfolio refinement",
+    "title": "16  Appendix",
+    "section": "19.4 Technical Review Support",
+    "text": "19.4 Technical Review Support\nProject-oriented feedback involving:\n\nworkflow review\ninterpretation guidance\ndocumentation support\ncommunication improvement\nportfolio refinement",
     "crumbs": [
-      "Appendix",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Appendix</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Appendix</span>"
     ]
   },
   {
     "objectID": "999-appendix.html#long-term-growth-support",
     "href": "999-appendix.html#long-term-growth-support",
-    "title": "17  Appendix",
-    "section": "20.5 Long-Term Growth Support",
-    "text": "20.5 Long-Term Growth Support\nMentorship pathways designed to support gradual progression from learner participation toward contribution, collaboration, mentorship, and innovation-oriented involvement.",
+    "title": "16  Appendix",
+    "section": "19.5 Long-Term Growth Support",
+    "text": "19.5 Long-Term Growth Support\nMentorship pathways designed to support gradual progression from learner participation toward contribution, collaboration, mentorship, and innovation-oriented involvement.",
     "crumbs": [
-      "Appendix",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Appendix</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Appendix</span>"
     ]
   },
   {
     "objectID": "999-appendix.html#early-stage",
     "href": "999-appendix.html#early-stage",
-    "title": "17  Appendix",
-    "section": "26.1 Early Stage",
-    "text": "26.1 Early Stage\n\necosystem alignment\nmentorship visibility\nopen learning systems\npilot cohorts",
+    "title": "16  Appendix",
+    "section": "25.1 Early Stage",
+    "text": "25.1 Early Stage\n\necosystem alignment\nmentorship visibility\nopen learning systems\npilot cohorts",
     "crumbs": [
-      "Appendix",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Appendix</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Appendix</span>"
     ]
   },
   {
     "objectID": "999-appendix.html#growth-stage",
     "href": "999-appendix.html#growth-stage",
-    "title": "17  Appendix",
-    "section": "26.2 Growth Stage",
-    "text": "26.2 Growth Stage\n\nexpanded mentorship ecosystems\ncollaborative partnerships\nworkforce-oriented initiatives\ninnovation-oriented projects",
+    "title": "16  Appendix",
+    "section": "25.2 Growth Stage",
+    "text": "25.2 Growth Stage\n\nexpanded mentorship ecosystems\ncollaborative partnerships\nworkforce-oriented initiatives\ninnovation-oriented projects",
     "crumbs": [
-      "Appendix",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Appendix</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Appendix</span>"
     ]
   },
   {
     "objectID": "999-appendix.html#expansion-stage",
     "href": "999-appendix.html#expansion-stage",
-    "title": "17  Appendix",
-    "section": "26.3 Expansion Stage",
-    "text": "26.3 Expansion Stage\n\ndistributed technology hubs\nscalable learning systems\nregional collaboration\nbroader ecosystem participation",
+    "title": "16  Appendix",
+    "section": "25.3 Expansion Stage",
+    "text": "25.3 Expansion Stage\n\ndistributed technology hubs\nscalable learning systems\nregional collaboration\nbroader ecosystem participation",
     "crumbs": [
-      "Appendix",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Appendix</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Appendix</span>"
     ]
   },
   {
     "objectID": "999-appendix.html#long-term-ecosystem-stage",
     "href": "999-appendix.html#long-term-ecosystem-stage",
-    "title": "17  Appendix",
-    "section": "26.4 Long-Term Ecosystem Stage",
-    "text": "26.4 Long-Term Ecosystem Stage\n\nmentorship networks\ninnovation ecosystems\nworkforce capability programs\ncollaborative capability-development communities",
+    "title": "16  Appendix",
+    "section": "25.4 Long-Term Ecosystem Stage",
+    "text": "25.4 Long-Term Ecosystem Stage\n\nmentorship networks\ninnovation ecosystems\nworkforce capability programs\ncollaborative capability-development communities",
     "crumbs": [
-      "Appendix",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Appendix</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Appendix</span>"
     ]
   }
 ]
