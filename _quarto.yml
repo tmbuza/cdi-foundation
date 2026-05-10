@@ -1,0 +1,55 @@
+project:
+  type: book
+  output-dir: docs
+
+bibliography: library/references.bib
+date: last-modified
+date-format: "MMM YYYY"
+
+book:
+  title: "CDI Foundation"
+  subtitle: "Expanding access to practical technology skills and real-world systems development"
+  author: "Complex Data Insights"
+  chapters:
+    - index.qmd
+    - 00-preface.qmd
+    - 01-background-and-rationale.qmd
+    - 02-vision-mission-objectives.qmd
+    - 03-cdi-foundation-model.qmd
+    - 04-core-initiatives.qmd
+    - 05-scalability-and-expansion.qmd
+    - 06-delivery-model.qmd
+    - 07-mentorship-and-capability.qmd
+    - 08-workforce-and-opportunity-integration.qmd
+    - 09-governance-and-operations.qmd
+    - 10-sustainability-and-growth.qmd
+    - 11-monitoring-evaluation-and-impact.qmd
+    - 12-launch-roadmap.qmd
+    - 13-conclusion.qmd
+    - index.qmd
+
+    - part: "Appendix"
+      chapters:
+        - 999-appendix.qmd
+
+format:
+  html:
+    theme: cosmo  
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    number-depth: 2
+    smooth-scroll: true
+    anchor-sections: true
+    link-external-icon: true
+    css: assets/css/cdi.css
+    code-fold: true
+    mermaid:
+      theme: forest
+
+execute:
+  echo: true
+  warning: false
+  message: false
+  freeze: auto
+  working-dir: .

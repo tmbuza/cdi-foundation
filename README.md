@@ -1,22 +1,39 @@
 # CDI Foundation
 
-Expanding access to practical technology skills and real-world systems development.
+**Expanding access to practical technology skills and real-world systems development.**
 
-CDI Foundation is a modern capability-development and workforce-oriented ecosystem focused on helping learners build practical technical capability through structured learning pathways, mentorship, systems-building, and innovation-oriented participation.
+This repository contains the early Quarto-based strategic framework for CDI Foundation.
 
-The foundation emphasizes:
+## Purpose
 
-- practical capability development
-- mentorship-driven growth
-- systems-thinking
-- reproducibility and interpretation
-- workforce readiness
-- innovation-oriented learning
-- contribution-focused ecosystems
+CDI Foundation is positioned as a modern applied-technology and workforce-development organization focused on practical capability, structured learning, guided mentorship, and real-world systems development.
 
-The CDI Foundation model is built around:
+## Repository Structure
 
-Learn → Build → Explain → Contribute
+```text
+.
+├── _quarto.yml
+├── index.qmd
+├── 00-preface.qmd
+├── chapters/
+├── appendices/
+├── assets/
+│   ├── css/
+│   └── images/
+└── README.md
+```
+
+## Render
+
+```bash
+quarto render
+```
+
+The rendered site will be generated in:
+
+```text
+docs/
+```
 
 ## Core Initiatives
 
@@ -27,8 +44,4 @@ Learn → Build → Explain → Contribute
 - CDI Mentorship Network
 - CDI Startup Studio
 - CDI Career Growth
-
-## Website
-
-Coming soon:
-foundation.complexdatainsights.com
+```
