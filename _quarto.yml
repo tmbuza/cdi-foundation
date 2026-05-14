@@ -26,6 +26,8 @@ book:
     - 11-monitoring-evaluation-and-impact.qmd
     - 12-launch-roadmap.qmd
     - 13-conclusion.qmd
+   
+  appendices:
     - 999-appendix.qmd
 
 format:

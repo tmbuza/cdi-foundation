@@ -1,23 +1,6 @@
-# Appendix
+# Appendix {-}
 
-::: {.cdi-message}
-**ID:** CDI-APP-999  
-**Type:** Reference and Supporting Materials  
-**Audience:** Public, partners, mentors, funders, learners  
-**Theme:** Sample pathways, ecosystem examples, mentorship structures, and operational references
-:::
-
-## Introduction
-
-This appendix provides example structures, ecosystem concepts, learning pathways, mentorship examples, and operational reference materials that support the broader CDI Foundation framework.
-
-The examples presented here are illustrative and intended to demonstrate how the CDI Foundation philosophy may be translated into practical capability-development ecosystems.
-
-The appendix is designed to evolve over time as programs, mentorship systems, learning environments, and collaborative initiatives expand.
-
----
-
-# Sample Learning Pathways
+# Learning Pathways
 
 ## Example Pathway: Data Science and Workforce Readiness
 
@@ -104,7 +87,9 @@ The appendix is designed to evolve over time as programs, mentorship systems, le
 
 ---
 
-# Sample Systems-Build Projects
+# Systems-Build Projects
+
+## Sample Systems-Build Projects
 
 CDI Foundation encourages practical systems-oriented projects that connect learning to real workflows and contribution-oriented capability development.
 
@@ -132,7 +117,7 @@ Projects are intended to emphasize:
 
 ---
 
-# Example Mentorship Structure
+# Mentorship Model
 
 ## Founder-Led Mentorship
 
@@ -162,7 +147,51 @@ Mentorship pathways designed to support gradual progression from learner partici
 
 ---
 
-# Example Community Technology Hub Model
+# Workforce and Portfolio
+
+## Example Workforce Readiness Workflow
+
+```{mermaid}
+flowchart LR
+  A[Structured Learning] --> B[Systems-Building]
+  B --> C[Interpretation and Communication]
+  C --> D[Portfolio Development]
+  D --> E[Mentorship and Feedback]
+  E --> F[Workforce and Innovation Participation]
+```
+
+## Example Portfolio Components
+
+Learners participating within CDI Foundation ecosystems may gradually develop portfolios containing:
+
+- reproducible projects
+- GitHub repositories
+- analytical reports
+- dashboards and visual systems
+- technical documentation
+- communication-oriented summaries
+- startup prototypes
+- collaborative project contributions
+- systems-oriented case studies
+
+---
+
+# Partnerships and Community Hubs
+
+## Example Partnership Concepts
+
+Potential partnership ecosystems may include:
+
+- academic institutions
+- innovation hubs
+- workforce development organizations
+- healthcare and omics ecosystems
+- startup and entrepreneurship networks
+- mentorship communities
+- technology organizations
+- collaborative research initiatives
+
+## Example Community Technology Hub Model
 
 Community Technology Hubs may function as locally adaptable environments connected to the broader CDI Foundation ecosystem.
 
@@ -177,68 +206,11 @@ Potential activities may include:
 - communication and presentation sessions
 - workforce readiness support
 
-The hubs are intended to remain flexible, collaborative, and contribution-oriented rather than functioning as traditional classroom-only structures.
-
 ---
 
-# Example Workforce Readiness Workflow
+# Pilot and Growth Pathway
 
-```{mermaid}
-flowchart LR
-  A[Structured Learning] --> B[Systems-Building]
-  B --> C[Interpretation and Communication]
-  C --> D[Portfolio Development]
-  D --> E[Mentorship and Feedback]
-  E --> F[Workforce and Innovation Participation]
-```
-
-This workflow reflects the CDI philosophy that practical capability develops progressively through guided systems practice, interpretation, communication, and contribution-oriented participation.
-
----
-
-# Example Portfolio Components
-
-Learners participating within CDI Foundation ecosystems may gradually develop portfolios containing:
-
-- reproducible projects
-- GitHub repositories
-- analytical reports
-- dashboards and visual systems
-- technical documentation
-- communication-oriented summaries
-- startup prototypes
-- collaborative project contributions
-- systems-oriented case studies
-
-The purpose of portfolios is to provide visible evidence of practical capability and contribution-oriented growth.
-
----
-
-# Example Partnership Concepts
-
-Potential partnership ecosystems may include:
-
-- academic institutions
-- innovation hubs
-- workforce development organizations
-- healthcare and omics ecosystems
-- startup and entrepreneurship networks
-- mentorship communities
-- technology organizations
-- collaborative research initiatives
-
-Partnerships are intended to strengthen:
-
-- mentorship capacity
-- practical learning environments
-- innovation participation
-- workforce readiness
-- collaborative systems-building
-- ecosystem sustainability
-
----
-
-# Example Pilot Ecosystem Structure
+## Example Pilot Ecosystem Structure
 
 An early CDI Foundation pilot ecosystem may include:
 
@@ -251,31 +223,27 @@ An early CDI Foundation pilot ecosystem may include:
 - innovation-oriented experimentation
 - community-supported learning participation
 
-This phased approach allows the organization to refine mentorship systems, operational coordination, learning structures, and ecosystem participation gradually.
+## Example Organizational Growth Pathway
 
----
-
-# Example Organizational Growth Pathway
-
-## Early Stage
+### Early Stage
 - ecosystem alignment
 - mentorship visibility
 - open learning systems
 - pilot cohorts
 
-## Growth Stage
+### Growth Stage
 - expanded mentorship ecosystems
 - collaborative partnerships
 - workforce-oriented initiatives
 - innovation-oriented projects
 
-## Expansion Stage
+### Expansion Stage
 - distributed technology hubs
 - scalable learning systems
 - regional collaboration
 - broader ecosystem participation
 
-## Long-Term Ecosystem Stage
+### Long-Term Ecosystem Stage
 - mentorship networks
 - innovation ecosystems
 - workforce capability programs
@@ -283,7 +251,9 @@ This phased approach allows the organization to refine mentorship systems, opera
 
 ---
 
-# CDI Foundation Reference Principles
+# Reference Principles
+
+## CDI Foundation Reference Principles
 
 The CDI Foundation ecosystem is guided by several recurring principles:
 
@@ -300,9 +270,9 @@ These principles are intended to remain consistent across initiatives, mentorshi
 
 ---
 
-# Closing Appendix Perspective
+## Closing Appendix Perspective
 
-This appendix represents an evolving reference framework supporting the broader CDI Foundation ecosystem.
+This appendix collection represents an evolving reference framework supporting the broader CDI Foundation ecosystem.
 
 As the organization develops, these examples may continue to expand into:
 
@@ -314,9 +284,3 @@ As the organization develops, these examples may continue to expand into:
 - innovation-oriented workflows
 - workforce capability systems
 - community participation models
-
-The appendix therefore functions both as a practical reference section and as a foundation for future ecosystem development.
-
-::: {.next}
-End of CDI Foundation Strategic Framework.
-:::
