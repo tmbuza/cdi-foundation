@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>5&nbsp; The CDI Foundation Model – CDI Foundation</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./04-core-initiatives.html" rel="next">
+<link href="./02-vision-mission-objectives.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-485d01fc63b59abcd3ee1bf1e8e2748d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<meta name="mermaid-theme" content="forest">
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
+
+
+<link rel="stylesheet" href="assets/css/cdi.css">
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./03-cdi-foundation-model.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">The CDI Foundation Model</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">CDI Foundation</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">index.html</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./00-preface.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Preface</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./01-background-and-rationale.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Background and Rationale</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./02-vision-mission-objectives.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Vision, Mission, and Objectives</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./03-cdi-foundation-model.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">The CDI Foundation Model</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./04-core-initiatives.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Core Initiatives</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./05-scalability-and-expansion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Scalability and Future Expansion</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./06-delivery-model.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Delivery Model</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./07-mentorship-and-capability.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Mentorship and Capability Development</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./08-workforce-and-opportunity-integration.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Workforce and Opportunity Integration</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./09-governance-and-operations.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Governance and Operations</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./10-sustainability-and-growth.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Sustainability and Growth Strategy</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./11-monitoring-evaluation-and-impact.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Monitoring, Evaluation, and Impact</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./12-launch-roadmap.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Launch Roadmap</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./13-conclusion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Conclusion</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Appendices</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./999-appendix.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Appendix</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview"><span class="header-section-number">5.1</span> Overview</a></li>
+  <li><a href="#the-cdi-capability-development-flow" id="toc-the-cdi-capability-development-flow" class="nav-link" data-scroll-target="#the-cdi-capability-development-flow"><span class="header-section-number">5.2</span> The CDI Capability Development Flow</a></li>
+  <li><a href="#stage-1-learn" id="toc-stage-1-learn" class="nav-link" data-scroll-target="#stage-1-learn"><span class="header-section-number">5.3</span> Stage 1: Learn</a></li>
+  <li><a href="#stage-2-build" id="toc-stage-2-build" class="nav-link" data-scroll-target="#stage-2-build"><span class="header-section-number">5.4</span> Stage 2: Build</a></li>
+  <li><a href="#stage-3-explain" id="toc-stage-3-explain" class="nav-link" data-scroll-target="#stage-3-explain"><span class="header-section-number">5.5</span> Stage 3: Explain</a></li>
+  <li><a href="#stage-4-contribute" id="toc-stage-4-contribute" class="nav-link" data-scroll-target="#stage-4-contribute"><span class="header-section-number">5.6</span> Stage 4: Contribute</a></li>
+  <li><a href="#what-makes-the-cdi-model-distinctive" id="toc-what-makes-the-cdi-model-distinctive" class="nav-link" data-scroll-target="#what-makes-the-cdi-model-distinctive"><span class="header-section-number">5.7</span> What Makes the CDI Model Distinctive</a></li>
+  <li><a href="#mentorship-as-a-core-mechanism" id="toc-mentorship-as-a-core-mechanism" class="nav-link" data-scroll-target="#mentorship-as-a-core-mechanism"><span class="header-section-number">5.8</span> Mentorship as a Core Mechanism</a></li>
+  <li><a href="#online-and-local-delivery" id="toc-online-and-local-delivery" class="nav-link" data-scroll-target="#online-and-local-delivery"><span class="header-section-number">5.9</span> Online and Local Delivery</a>
+  <ul class="collapse">
+  <li><a href="#online-diy-programs" id="toc-online-diy-programs" class="nav-link" data-scroll-target="#online-diy-programs">Online DIY Programs</a></li>
+  <li><a href="#guided-cohorts" id="toc-guided-cohorts" class="nav-link" data-scroll-target="#guided-cohorts">Guided Cohorts</a></li>
+  <li><a href="#local-and-hybrid-workshops" id="toc-local-and-hybrid-workshops" class="nav-link" data-scroll-target="#local-and-hybrid-workshops">Local and Hybrid Workshops</a></li>
+  <li><a href="#innovation-and-practice-labs" id="toc-innovation-and-practice-labs" class="nav-link" data-scroll-target="#innovation-and-practice-labs">Innovation and Practice Labs</a></li>
+  </ul></li>
+  <li><a href="#portfolio-and-evidence-of-capability" id="toc-portfolio-and-evidence-of-capability" class="nav-link" data-scroll-target="#portfolio-and-evidence-of-capability"><span class="header-section-number">5.10</span> Portfolio and Evidence of Capability</a></li>
+  <li><a href="#workforce-and-opportunity-alignment" id="toc-workforce-and-opportunity-alignment" class="nav-link" data-scroll-target="#workforce-and-opportunity-alignment"><span class="header-section-number">5.11</span> Workforce and Opportunity Alignment</a></li>
+  <li><a href="#the-cdi-model-in-one-statement" id="toc-the-cdi-model-in-one-statement" class="nav-link" data-scroll-target="#the-cdi-model-in-one-statement"><span class="header-section-number">5.12</span> The CDI Model in One Statement</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">The CDI Foundation Model</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">May 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="cdi-message">
+<p><strong>ID:</strong> CDI-F03<br>
+<strong>Type:</strong> Strategic Framework Chapter<br>
+<strong>Audience:</strong> Public, partners, mentors, funders, learners<br>
+<strong>Theme:</strong> Capability development, systems-building, mentorship, and workforce contribution</p>
+</div>
+<section id="overview" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="overview"><span class="header-section-number">5.1</span> Overview</h2>
+<p>CDI Foundation uses a capability-development model designed to help learners move from exposure to technology into practical contribution within modern digital, remote, hybrid, and innovation-oriented environments.</p>
+<p>The model is built around a simple but powerful progression:</p>
+<p><strong>Learn → Build → Explain → Contribute</strong></p>
+<p>This structure reflects the CDI belief that meaningful technology development requires more than access to information. Learners need structured pathways, guided practice, real systems experience, interpretation, communication, and opportunities to connect their skills to practical use.</p>
+<p>The model is designed to support both online and locally adaptable programs, allowing CDI Foundation to serve learners through digital learning pathways, guided cohorts, mentorship programs, local workshops, community hubs, and applied innovation environments.</p>
+<hr>
+</section>
+<section id="the-cdi-capability-development-flow" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="the-cdi-capability-development-flow"><span class="header-section-number">5.2</span> The CDI Capability Development Flow</h2>
+<div class="cell" data-layout-align="default">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>flowchart LR</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  A[Learn\nStructured foundations] --&gt; B[Build\nReal systems and workflows]</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  B --&gt; C[Explain\nInterpretation and communication]</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  C --&gt; D[Contribute\nWorkforce, innovation, and community impact]</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  A --&gt; E[Guided Pathways]</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  B --&gt; F[Applied Projects]</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  C --&gt; G[Portfolio and Technical Reasoning]</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  D --&gt; H[Remote, Hybrid, Startup, and Research Opportunities]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+  A[Learn\nStructured foundations] --&gt; B[Build\nReal systems and workflows]
+  B --&gt; C[Explain\nInterpretation and communication]
+  C --&gt; D[Contribute\nWorkforce, innovation, and community impact]
+
+  A --&gt; E[Guided Pathways]
+  B --&gt; F[Applied Projects]
+  C --&gt; G[Portfolio and Technical Reasoning]
+  D --&gt; H[Remote, Hybrid, Startup, and Research Opportunities]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p>The model is intentionally sequential but not rigid. Learners may revisit earlier stages as they grow, strengthen their foundations, improve their systems, refine their explanations, and expand their contribution.</p>
+<hr>
+</section>
+<section id="stage-1-learn" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="stage-1-learn"><span class="header-section-number">5.3</span> Stage 1: Learn</h2>
+<p>The first stage focuses on structured learning pathways that help learners develop strong foundations in modern technology areas.</p>
+<p>This may include:</p>
+<ul>
+<li>data science and analytics</li>
+<li>programming and databases</li>
+<li>AI-assisted workflows</li>
+<li>applied bioinformatics and omics</li>
+<li>clinical and health data systems</li>
+<li>visualization and communication</li>
+<li>reproducible workflows</li>
+<li>technical writing and documentation</li>
+</ul>
+<p>The purpose of this stage is not only to introduce tools. It is to help learners understand concepts, workflows, reasoning patterns, and the structure of real technical work.</p>
+<p>CDI Foundation emphasizes learning that is organized, progressive, and connected to applied outcomes.</p>
+<hr>
+</section>
+<section id="stage-2-build" class="level2" data-number="5.4">
+<h2 data-number="5.4" class="anchored" data-anchor-id="stage-2-build"><span class="header-section-number">5.4</span> Stage 2: Build</h2>
+<p>The second stage focuses on practical systems-building.</p>
+<p>Learners move from concepts into applied projects where they begin building complete workflows, not isolated exercises.</p>
+<p>This may include:</p>
+<ul>
+<li>analytical pipelines</li>
+<li>reproducible reports</li>
+<li>dashboards and visual systems</li>
+<li>AI-assisted decision workflows</li>
+<li>omics analysis systems</li>
+<li>database-backed projects</li>
+<li>portfolio-ready technical outputs</li>
+<li>prototype tools and startup-oriented systems</li>
+</ul>
+<p>This stage reflects one of CDI’s central principles:</p>
+<blockquote class="blockquote">
+<p>Systems over outputs.</p>
+</blockquote>
+<p>The goal is not simply to produce a chart, model, notebook, or report. The goal is to understand how inputs, processing, reasoning, outputs, interpretation, and communication connect into a usable system.</p>
+<hr>
+</section>
+<section id="stage-3-explain" class="level2" data-number="5.5">
+<h2 data-number="5.5" class="anchored" data-anchor-id="stage-3-explain"><span class="header-section-number">5.5</span> Stage 3: Explain</h2>
+<p>The third stage focuses on interpretation, communication, and defensible reasoning.</p>
+<p>A learner is not fully workforce-ready simply because they can run code or generate outputs. They also need to explain what they did, why they did it, what the results mean, what the limitations are, and how the work can be used responsibly.</p>
+<p>This stage develops the ability to:</p>
+<ul>
+<li>explain workflows clearly</li>
+<li>interpret outputs responsibly</li>
+<li>document technical decisions</li>
+<li>communicate findings to different audiences</li>
+<li>distinguish evidence from assumptions</li>
+<li>avoid overclaiming</li>
+<li>defend conclusions with reasoning</li>
+<li>present work professionally</li>
+</ul>
+<p>This stage is essential because modern work environments require people who can not only perform technical tasks but also communicate, collaborate, and support decisions.</p>
+<hr>
+</section>
+<section id="stage-4-contribute" class="level2" data-number="5.6">
+<h2 data-number="5.6" class="anchored" data-anchor-id="stage-4-contribute"><span class="header-section-number">5.6</span> Stage 4: Contribute</h2>
+<p>The fourth stage connects capability to real-world participation.</p>
+<p>Contribution may take different forms depending on the learner’s goals, context, and opportunities.</p>
+<p>This may include:</p>
+<ul>
+<li>remote or hybrid workforce participation</li>
+<li>internships and applied practice</li>
+<li>freelance or independent technical work</li>
+<li>research collaboration</li>
+<li>startup development</li>
+<li>community innovation projects</li>
+<li>open learning contributions</li>
+<li>technical mentorship of others</li>
+</ul>
+<p>CDI Foundation does not position learning as an endpoint. Learning is a pathway toward contribution.</p>
+<p>The goal is to help more learners become capable of participating meaningfully in modern technology-driven environments.</p>
+<hr>
+</section>
+<section id="what-makes-the-cdi-model-distinctive" class="level2" data-number="5.7">
+<h2 data-number="5.7" class="anchored" data-anchor-id="what-makes-the-cdi-model-distinctive"><span class="header-section-number">5.7</span> What Makes the CDI Model Distinctive</h2>
+<p>The CDI Foundation model is distinctive because it connects learning, systems-building, reasoning, mentorship, and opportunity awareness into one coherent pathway.</p>
+<p>Many learners can access tutorials, courses, and certificates. However, the transition from learning to real-world contribution often remains unclear.</p>
+<p>CDI Foundation addresses this transition by emphasizing:</p>
+<ul>
+<li>structured learning rather than scattered exposure</li>
+<li>systems-building rather than isolated outputs</li>
+<li>mentorship rather than unsupported self-navigation</li>
+<li>interpretation rather than tool use alone</li>
+<li>portfolios rather than passive completion</li>
+<li>capability rather than certification alone</li>
+<li>opportunity awareness rather than learning in isolation</li>
+<li>adaptability rather than fixed training models</li>
+</ul>
+<p>This approach allows CDI Foundation to function as a bridge between education, practical technology development, workforce readiness, and innovation.</p>
+<hr>
+</section>
+<section id="mentorship-as-a-core-mechanism" class="level2" data-number="5.8">
+<h2 data-number="5.8" class="anchored" data-anchor-id="mentorship-as-a-core-mechanism"><span class="header-section-number">5.8</span> Mentorship as a Core Mechanism</h2>
+<p>Mentorship is central to the CDI Foundation model.</p>
+<p>Technology learning often becomes difficult not because learners lack intelligence or motivation, but because they lack structure, feedback, guidance, and exposure to how real technical work is developed.</p>
+<p>CDI mentorship helps learners:</p>
+<ul>
+<li>choose appropriate learning pathways</li>
+<li>understand technical workflows</li>
+<li>build practical projects</li>
+<li>interpret results</li>
+<li>document their work</li>
+<li>improve communication</li>
+<li>prepare portfolios</li>
+<li>connect learning to workforce goals</li>
+</ul>
+<p>The mentorship model can be founder-led, community-supported, cohort-based, or locally adapted through partners and learning hubs.</p>
+<p>This makes CDI Foundation both scalable and human-centered.</p>
+<hr>
+</section>
+<section id="online-and-local-delivery" class="level2" data-number="5.9">
+<h2 data-number="5.9" class="anchored" data-anchor-id="online-and-local-delivery"><span class="header-section-number">5.9</span> Online and Local Delivery</h2>
+<p>The CDI model is designed to work across multiple delivery environments.</p>
+<section id="online-diy-programs" class="level3">
+<h3 class="anchored" data-anchor-id="online-diy-programs">Online DIY Programs</h3>
+<p>Learners can access structured guides, learning pathways, projects, and practical resources independently.</p>
+</section>
+<section id="guided-cohorts" class="level3">
+<h3 class="anchored" data-anchor-id="guided-cohorts">Guided Cohorts</h3>
+<p>Learners can participate in structured programs with mentorship, timelines, group practice, and feedback.</p>
+</section>
+<section id="local-and-hybrid-workshops" class="level3">
+<h3 class="anchored" data-anchor-id="local-and-hybrid-workshops">Local and Hybrid Workshops</h3>
+<p>CDI programs can be delivered through local workshops, training sessions, community hubs, universities, organizations, or partner institutions.</p>
+</section>
+<section id="innovation-and-practice-labs" class="level3">
+<h3 class="anchored" data-anchor-id="innovation-and-practice-labs">Innovation and Practice Labs</h3>
+<p>Learners can work on applied projects, prototypes, research workflows, startup concepts, and real-world systems with guidance and collaboration.</p>
+<p>This flexibility allows CDI Foundation to support both global digital participation and local community-based development.</p>
+<hr>
+</section>
+</section>
+<section id="portfolio-and-evidence-of-capability" class="level2" data-number="5.10">
+<h2 data-number="5.10" class="anchored" data-anchor-id="portfolio-and-evidence-of-capability"><span class="header-section-number">5.10</span> Portfolio and Evidence of Capability</h2>
+<p>A major outcome of the CDI model is the development of visible evidence of capability.</p>
+<p>This may include:</p>
+<ul>
+<li>reproducible projects</li>
+<li>technical reports</li>
+<li>GitHub repositories</li>
+<li>dashboards</li>
+<li>analytical workflows</li>
+<li>documentation</li>
+<li>case studies</li>
+<li>presentation materials</li>
+<li>startup prototypes</li>
+<li>applied research outputs</li>
+</ul>
+<p>These outputs help learners demonstrate not just what they studied, but what they can build, explain, and improve.</p>
+<p>This aligns with CDI Foundation’s core belief that capability should be visible, practical, and connected to real-world contribution.</p>
+<hr>
+</section>
+<section id="workforce-and-opportunity-alignment" class="level2" data-number="5.11">
+<h2 data-number="5.11" class="anchored" data-anchor-id="workforce-and-opportunity-alignment"><span class="header-section-number">5.11</span> Workforce and Opportunity Alignment</h2>
+<p>CDI Foundation recognizes that learning becomes more powerful when learners understand where opportunities exist and what modern roles require.</p>
+<p>The model therefore includes opportunity awareness as part of workforce readiness.</p>
+<p>This may involve:</p>
+<ul>
+<li>exposure to real job postings</li>
+<li>understanding remote and hybrid work expectations</li>
+<li>identifying skill gaps</li>
+<li>improving portfolio readiness</li>
+<li>building communication confidence</li>
+<li>preparing for technical collaboration</li>
+<li>understanding startup and innovation pathways</li>
+</ul>
+<p>CDI Foundation does not promise employment. Instead, it helps learners build practical capability, technical confidence, and opportunity awareness that can support their participation in modern workforce environments.</p>
+<hr>
+</section>
+<section id="the-cdi-model-in-one-statement" class="level2" data-number="5.12">
+<h2 data-number="5.12" class="anchored" data-anchor-id="the-cdi-model-in-one-statement"><span class="header-section-number">5.12</span> The CDI Model in One Statement</h2>
+<p>CDI Foundation helps learners move from learning to real-world contribution by combining structured pathways, practical systems-building, mentorship, interpretation, and workforce-oriented capability development.</p>
+<div class="next">
+<p>The next chapter presents the core initiatives that operationalize this model across workforce development, innovation, omics, AI, mentorship, startups, and career growth.</p>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // default icon
+            link.classList.add("external");
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./02-vision-mission-objectives.html" class="pagination-link" aria-label="Vision, Mission, and Objectives">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Vision, Mission, and Objectives</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./04-core-initiatives.html" class="pagination-link" aria-label="Core Initiatives">
+        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Core Initiatives</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
