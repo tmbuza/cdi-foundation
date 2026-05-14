@@ -1542,131 +1542,199 @@
   {
     "objectID": "999-appendix.html",
     "href": "999-appendix.html",
-    "title": "16  Appendix",
+    "title": "Appendix",
     "section": "",
-    "text": "16.1 Introduction\nThis appendix provides example structures, ecosystem concepts, learning pathways, mentorship examples, and operational reference materials that support the broader CDI Foundation framework.\nThe examples presented here are illustrative and intended to demonstrate how the CDI Foundation philosophy may be translated into practical capability-development ecosystems.\nThe appendix is designed to evolve over time as programs, mentorship systems, learning environments, and collaborative initiatives expand.",
+    "text": "Learning Pathways",
     "crumbs": [
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Appendix</span>"
+      "Appendices",
+      "Appendix"
     ]
   },
   {
     "objectID": "999-appendix.html#example-pathway-data-science-and-workforce-readiness",
     "href": "999-appendix.html#example-pathway-data-science-and-workforce-readiness",
-    "title": "16  Appendix",
-    "section": "17.1 Example Pathway: Data Science and Workforce Readiness",
-    "text": "17.1 Example Pathway: Data Science and Workforce Readiness\n\nLearn\n\nPython foundations\ndata structures\nstatistics and visualization\ndatabases and SQL\nanalytical reasoning\n\n\n\nBuild\n\nreproducible analysis workflows\ndashboards and reporting systems\nproject-based analytical pipelines\nportfolio-oriented case studies\n\n\n\nExplain\n\ntechnical communication\ninterpretation and reasoning\ndocumentation and reporting\npresentation and visualization\n\n\n\nContribute\n\nremote collaboration\nworkforce-oriented projects\nmentorship participation\ninnovation-oriented systems development",
+    "title": "Appendix",
+    "section": "Example Pathway: Data Science and Workforce Readiness",
+    "text": "Example Pathway: Data Science and Workforce Readiness\n\nLearn\n\nPython foundations\ndata structures\nstatistics and visualization\ndatabases and SQL\nanalytical reasoning\n\n\n\nBuild\n\nreproducible analysis workflows\ndashboards and reporting systems\nproject-based analytical pipelines\nportfolio-oriented case studies\n\n\n\nExplain\n\ntechnical communication\ninterpretation and reasoning\ndocumentation and reporting\npresentation and visualization\n\n\n\nContribute\n\nremote collaboration\nworkforce-oriented projects\nmentorship participation\ninnovation-oriented systems development",
     "crumbs": [
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Appendix</span>"
+      "Appendices",
+      "Appendix"
     ]
   },
   {
     "objectID": "999-appendix.html#example-pathway-applied-bioinformatics-and-omics",
     "href": "999-appendix.html#example-pathway-applied-bioinformatics-and-omics",
-    "title": "16  Appendix",
-    "section": "17.2 Example Pathway: Applied Bioinformatics and Omics",
-    "text": "17.2 Example Pathway: Applied Bioinformatics and Omics\n\nLearn\n\nbiological foundations\nRNA-seq concepts\nomics workflows\ncomputational analysis foundations\n\n\n\nBuild\n\nreproducible omics pipelines\nvisualization systems\nintegrated analytical workflows\nsystems-oriented biological analysis\n\n\n\nExplain\n\ninterpretation of results\nscientific communication\nreproducibility and reporting\ndefensible analytical reasoning\n\n\n\nContribute\n\ncollaborative research workflows\nopen analytical systems\nmentorship and community contribution\ninnovation-oriented biological systems development",
+    "title": "Appendix",
+    "section": "Example Pathway: Applied Bioinformatics and Omics",
+    "text": "Example Pathway: Applied Bioinformatics and Omics\n\nLearn\n\nbiological foundations\nRNA-seq concepts\nomics workflows\ncomputational analysis foundations\n\n\n\nBuild\n\nreproducible omics pipelines\nvisualization systems\nintegrated analytical workflows\nsystems-oriented biological analysis\n\n\n\nExplain\n\ninterpretation of results\nscientific communication\nreproducibility and reporting\ndefensible analytical reasoning\n\n\n\nContribute\n\ncollaborative research workflows\nopen analytical systems\nmentorship and community contribution\ninnovation-oriented biological systems development",
     "crumbs": [
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Appendix</span>"
+      "Appendices",
+      "Appendix"
     ]
   },
   {
     "objectID": "999-appendix.html#example-pathway-ai-and-decision-systems",
     "href": "999-appendix.html#example-pathway-ai-and-decision-systems",
-    "title": "16  Appendix",
-    "section": "17.3 Example Pathway: AI and Decision Systems",
-    "text": "17.3 Example Pathway: AI and Decision Systems\n\nLearn\n\nAI-assisted workflows\nanalytical reasoning\nsystems-thinking\ninterpretation and validation principles\n\n\n\nBuild\n\nAI-assisted systems\nworkflow automation\ndecision-support pipelines\npractical reasoning workflows\n\n\n\nExplain\n\ncommunication of AI-assisted outputs\nverification and interpretation\ndefensible reasoning\nworkflow documentation\n\n\n\nContribute\n\ncollaborative AI-assisted systems\nworkforce-oriented AI workflows\ninnovation participation\nmentorship and ecosystem contribution",
+    "title": "Appendix",
+    "section": "Example Pathway: AI and Decision Systems",
+    "text": "Example Pathway: AI and Decision Systems\n\nLearn\n\nAI-assisted workflows\nanalytical reasoning\nsystems-thinking\ninterpretation and validation principles\n\n\n\nBuild\n\nAI-assisted systems\nworkflow automation\ndecision-support pipelines\npractical reasoning workflows\n\n\n\nExplain\n\ncommunication of AI-assisted outputs\nverification and interpretation\ndefensible reasoning\nworkflow documentation\n\n\n\nContribute\n\ncollaborative AI-assisted systems\nworkforce-oriented AI workflows\ninnovation participation\nmentorship and ecosystem contribution",
     "crumbs": [
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Appendix</span>"
+      "Appendices",
+      "Appendix"
+    ]
+  },
+  {
+    "objectID": "999-appendix.html#sample-systems-build-projects",
+    "href": "999-appendix.html#sample-systems-build-projects",
+    "title": "Appendix",
+    "section": "Sample Systems-Build Projects",
+    "text": "Sample Systems-Build Projects\nCDI Foundation encourages practical systems-oriented projects that connect learning to real workflows and contribution-oriented capability development.\nExample project areas may include:\n\nreproducible analytical pipelines\ndashboards and reporting systems\nAI-assisted workflow systems\nstartup-oriented prototypes\nbioinformatics analysis workflows\nvisualization and communication systems\ncollaborative innovation projects\ndigital health data systems\nworkforce-oriented portfolio projects\n\nProjects are intended to emphasize:\n\nsystems-thinking\nreproducibility\ncommunication\npractical reasoning\ninterpretation\ncollaboration\ncontribution-oriented growth",
+    "crumbs": [
+      "Appendices",
+      "Appendix"
     ]
   },
   {
     "objectID": "999-appendix.html#founder-led-mentorship",
     "href": "999-appendix.html#founder-led-mentorship",
-    "title": "16  Appendix",
-    "section": "19.1 Founder-Led Mentorship",
-    "text": "19.1 Founder-Led Mentorship\nVisible and practical guidance focused on systems-thinking, capability development, workforce readiness, and mentorship culture.",
+    "title": "Appendix",
+    "section": "Founder-Led Mentorship",
+    "text": "Founder-Led Mentorship\nVisible and practical guidance focused on systems-thinking, capability development, workforce readiness, and mentorship culture.",
     "crumbs": [
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Appendix</span>"
+      "Appendices",
+      "Appendix"
     ]
   },
   {
     "objectID": "999-appendix.html#cohort-mentorship",
     "href": "999-appendix.html#cohort-mentorship",
-    "title": "16  Appendix",
-    "section": "19.2 Cohort Mentorship",
-    "text": "19.2 Cohort Mentorship\nStructured group-based mentorship environments supporting collaborative growth and guided learning progression.",
+    "title": "Appendix",
+    "section": "Cohort Mentorship",
+    "text": "Cohort Mentorship\nStructured group-based mentorship environments supporting collaborative growth and guided learning progression.",
     "crumbs": [
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Appendix</span>"
+      "Appendices",
+      "Appendix"
     ]
   },
   {
     "objectID": "999-appendix.html#peer-mentorship",
     "href": "999-appendix.html#peer-mentorship",
-    "title": "16  Appendix",
-    "section": "19.3 Peer Mentorship",
-    "text": "19.3 Peer Mentorship\nLearners supporting one another through project review, communication practice, collaborative learning, and shared ecosystem participation.",
+    "title": "Appendix",
+    "section": "Peer Mentorship",
+    "text": "Peer Mentorship\nLearners supporting one another through project review, communication practice, collaborative learning, and shared ecosystem participation.",
     "crumbs": [
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Appendix</span>"
+      "Appendices",
+      "Appendix"
     ]
   },
   {
     "objectID": "999-appendix.html#technical-review-support",
     "href": "999-appendix.html#technical-review-support",
-    "title": "16  Appendix",
-    "section": "19.4 Technical Review Support",
-    "text": "19.4 Technical Review Support\nProject-oriented feedback involving:\n\nworkflow review\ninterpretation guidance\ndocumentation support\ncommunication improvement\nportfolio refinement",
+    "title": "Appendix",
+    "section": "Technical Review Support",
+    "text": "Technical Review Support\nProject-oriented feedback involving:\n\nworkflow review\ninterpretation guidance\ndocumentation support\ncommunication improvement\nportfolio refinement",
     "crumbs": [
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Appendix</span>"
+      "Appendices",
+      "Appendix"
     ]
   },
   {
     "objectID": "999-appendix.html#long-term-growth-support",
     "href": "999-appendix.html#long-term-growth-support",
-    "title": "16  Appendix",
-    "section": "19.5 Long-Term Growth Support",
-    "text": "19.5 Long-Term Growth Support\nMentorship pathways designed to support gradual progression from learner participation toward contribution, collaboration, mentorship, and innovation-oriented involvement.",
+    "title": "Appendix",
+    "section": "Long-Term Growth Support",
+    "text": "Long-Term Growth Support\nMentorship pathways designed to support gradual progression from learner participation toward contribution, collaboration, mentorship, and innovation-oriented involvement.",
     "crumbs": [
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Appendix</span>"
+      "Appendices",
+      "Appendix"
     ]
   },
   {
-    "objectID": "999-appendix.html#early-stage",
-    "href": "999-appendix.html#early-stage",
-    "title": "16  Appendix",
-    "section": "25.1 Early Stage",
-    "text": "25.1 Early Stage\n\necosystem alignment\nmentorship visibility\nopen learning systems\npilot cohorts",
+    "objectID": "999-appendix.html#example-workforce-readiness-workflow",
+    "href": "999-appendix.html#example-workforce-readiness-workflow",
+    "title": "Appendix",
+    "section": "Example Workforce Readiness Workflow",
+    "text": "Example Workforce Readiness Workflow\n\n\nCode\nflowchart LR\n  A[Structured Learning] --&gt; B[Systems-Building]\n  B --&gt; C[Interpretation and Communication]\n  C --&gt; D[Portfolio Development]\n  D --&gt; E[Mentorship and Feedback]\n  E --&gt; F[Workforce and Innovation Participation]\n\n\n\n\n\nflowchart LR\n  A[Structured Learning] --&gt; B[Systems-Building]\n  B --&gt; C[Interpretation and Communication]\n  C --&gt; D[Portfolio Development]\n  D --&gt; E[Mentorship and Feedback]\n  E --&gt; F[Workforce and Innovation Participation]",
     "crumbs": [
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Appendix</span>"
+      "Appendices",
+      "Appendix"
     ]
   },
   {
-    "objectID": "999-appendix.html#growth-stage",
-    "href": "999-appendix.html#growth-stage",
-    "title": "16  Appendix",
-    "section": "25.2 Growth Stage",
-    "text": "25.2 Growth Stage\n\nexpanded mentorship ecosystems\ncollaborative partnerships\nworkforce-oriented initiatives\ninnovation-oriented projects",
+    "objectID": "999-appendix.html#example-portfolio-components",
+    "href": "999-appendix.html#example-portfolio-components",
+    "title": "Appendix",
+    "section": "Example Portfolio Components",
+    "text": "Example Portfolio Components\nLearners participating within CDI Foundation ecosystems may gradually develop portfolios containing:\n\nreproducible projects\nGitHub repositories\nanalytical reports\ndashboards and visual systems\ntechnical documentation\ncommunication-oriented summaries\nstartup prototypes\ncollaborative project contributions\nsystems-oriented case studies",
     "crumbs": [
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Appendix</span>"
+      "Appendices",
+      "Appendix"
     ]
   },
   {
-    "objectID": "999-appendix.html#expansion-stage",
-    "href": "999-appendix.html#expansion-stage",
-    "title": "16  Appendix",
-    "section": "25.3 Expansion Stage",
-    "text": "25.3 Expansion Stage\n\ndistributed technology hubs\nscalable learning systems\nregional collaboration\nbroader ecosystem participation",
+    "objectID": "999-appendix.html#example-partnership-concepts",
+    "href": "999-appendix.html#example-partnership-concepts",
+    "title": "Appendix",
+    "section": "Example Partnership Concepts",
+    "text": "Example Partnership Concepts\nPotential partnership ecosystems may include:\n\nacademic institutions\ninnovation hubs\nworkforce development organizations\nhealthcare and omics ecosystems\nstartup and entrepreneurship networks\nmentorship communities\ntechnology organizations\ncollaborative research initiatives",
     "crumbs": [
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Appendix</span>"
+      "Appendices",
+      "Appendix"
     ]
   },
   {
-    "objectID": "999-appendix.html#long-term-ecosystem-stage",
-    "href": "999-appendix.html#long-term-ecosystem-stage",
-    "title": "16  Appendix",
-    "section": "25.4 Long-Term Ecosystem Stage",
-    "text": "25.4 Long-Term Ecosystem Stage\n\nmentorship networks\ninnovation ecosystems\nworkforce capability programs\ncollaborative capability-development communities",
+    "objectID": "999-appendix.html#example-community-technology-hub-model",
+    "href": "999-appendix.html#example-community-technology-hub-model",
+    "title": "Appendix",
+    "section": "Example Community Technology Hub Model",
+    "text": "Example Community Technology Hub Model\nCommunity Technology Hubs may function as locally adaptable environments connected to the broader CDI Foundation ecosystem.\nPotential activities may include:\n\nworkshops and learning sessions\nmentorship meetings\ncollaborative systems-building\nportfolio development activities\ninnovation-oriented practice\nstartup-oriented experimentation\ncommunication and presentation sessions\nworkforce readiness support",
     "crumbs": [
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Appendix</span>"
+      "Appendices",
+      "Appendix"
+    ]
+  },
+  {
+    "objectID": "999-appendix.html#example-pilot-ecosystem-structure",
+    "href": "999-appendix.html#example-pilot-ecosystem-structure",
+    "title": "Appendix",
+    "section": "Example Pilot Ecosystem Structure",
+    "text": "Example Pilot Ecosystem Structure\nAn early CDI Foundation pilot ecosystem may include:\n\nsmall mentorship cohorts\nonline DIY learning pathways\ncollaborative systems-build projects\nportfolio-oriented development\ncommunication and interpretation practice\nworkforce-readiness discussions\ninnovation-oriented experimentation\ncommunity-supported learning participation",
+    "crumbs": [
+      "Appendices",
+      "Appendix"
+    ]
+  },
+  {
+    "objectID": "999-appendix.html#example-organizational-growth-pathway",
+    "href": "999-appendix.html#example-organizational-growth-pathway",
+    "title": "Appendix",
+    "section": "Example Organizational Growth Pathway",
+    "text": "Example Organizational Growth Pathway\n\nEarly Stage\n\necosystem alignment\nmentorship visibility\nopen learning systems\npilot cohorts\n\n\n\nGrowth Stage\n\nexpanded mentorship ecosystems\ncollaborative partnerships\nworkforce-oriented initiatives\ninnovation-oriented projects\n\n\n\nExpansion Stage\n\ndistributed technology hubs\nscalable learning systems\nregional collaboration\nbroader ecosystem participation\n\n\n\nLong-Term Ecosystem Stage\n\nmentorship networks\ninnovation ecosystems\nworkforce capability programs\ncollaborative capability-development communities",
+    "crumbs": [
+      "Appendices",
+      "Appendix"
+    ]
+  },
+  {
+    "objectID": "999-appendix.html#cdi-foundation-reference-principles",
+    "href": "999-appendix.html#cdi-foundation-reference-principles",
+    "title": "Appendix",
+    "section": "CDI Foundation Reference Principles",
+    "text": "CDI Foundation Reference Principles\nThe CDI Foundation ecosystem is guided by several recurring principles:\n\nsystems over isolated outputs\ncapability over passive completion\nguided practical learning\nmentorship-driven growth\ninterpretation and communication\nreproducibility and transparency\ncollaboration and innovation\ncontribution-oriented development\n\nThese principles are intended to remain consistent across initiatives, mentorship systems, learning environments, partnerships, and future organizational expansion.",
+    "crumbs": [
+      "Appendices",
+      "Appendix"
+    ]
+  },
+  {
+    "objectID": "999-appendix.html#closing-appendix-perspective",
+    "href": "999-appendix.html#closing-appendix-perspective",
+    "title": "Appendix",
+    "section": "Closing Appendix Perspective",
+    "text": "Closing Appendix Perspective\nThis appendix collection represents an evolving reference framework supporting the broader CDI Foundation ecosystem.\nAs the organization develops, these examples may continue to expand into:\n\noperational guides\nmentorship frameworks\npartnership references\nlearning pathway examples\npilot ecosystem structures\ninnovation-oriented workflows\nworkforce capability systems\ncommunity participation models",
+    "crumbs": [
+      "Appendices",
+      "Appendix"
     ]
   }
 ]
